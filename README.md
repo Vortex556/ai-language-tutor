@@ -38,8 +38,17 @@ ai-language-tutor/
 
 ## 快速开始
 
-1. 将本目录放到 Codex 的 skills 目录（`~/.codex/skills/ai-language-tutor/`）。
-2. 在任意工作目录对 Codex 用自然语言发起备课，例如：
+### 安装（任选其一）
+
+```bash
+# 方式一：git clone
+git clone https://github.com/Vortex556/ai-language-tutor.git ~/.codex/skills/ai-language-tutor
+
+# 方式二：下载 ZIP，解压后把 ai-language-tutor-main 改名为 ai-language-tutor，
+#         复制到 ~/.codex/skills/ 下
+```
+
+安装后重启 Codex（或新开会话），然后在任意工作目录用自然语言发起备课，例如：
 
 ```
 给张三建个档案，学英语，A2 水平
