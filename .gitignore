@@ -1,0 +1,7 @@
+# Python
+__pycache__/
+*.pyc
+
+# 运行时生成的学生 / 素材数据（不入库）
+students/
+materials/
